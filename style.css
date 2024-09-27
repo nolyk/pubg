@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Inter", sans-serif;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: black;
+}
+nav {
+  display: flex;
+  padding: 18px 57px;
+  justify-content: space-between;
+  align-items: center;
+}
+.texts {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.slc1 img {
+  height: 24.93px;
+  width: 24.95px;
+}
+.slc1 {
+  width: 100px;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+.slc1 option {
+  color: black;
+}
+button {
+  background-color: #f1a900;
+  border: none;
+  width: 192px;
+  height: 82px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+.ul1 {
+  background-color: #222222;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  padding: 14px 14px;
+}
+.ul1 li a {
+  color: white;
+}
+
+main {
+  background-image: url("./imgs/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.all h1 {
+  font-size: 64px;
+  font-weight: 700;
+  width: 922px;
+  height: 140px;
+  background-color: #F1A90054;
+  display: flex;
+  align-items: center;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    row-gap: 30px;
+}
+.buttonns {
+  display: flex;
+  gap: 64px;
+}
+.buttonns h2:nth-child(1) {
+  width: 235px;
+  height: 73px;
+  background-color: #f1a900;
+  font-size: 40px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonns h2:nth-child(2) {
+  width: 235px;
+  height: 73px;
+  background-color: #000000;
+  font-size: 40px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+footer {
+  background-color: black;
+}
+.end {
+  padding: 28px 57px;
+}
+.logot {
+  padding: 28px 57px;
+  display: flex;
+  gap: 52px;
+}
+.allend {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
